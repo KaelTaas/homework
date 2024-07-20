@@ -27,28 +27,33 @@
     const openModal = () => {
         modal.classList.add('body--opened-modal')
         body.classList.add('body--fixed')
+        event.preventDefault()
     }
     imgButton.addEventListener('click', openModal);
 
     const closeModal = () => {
         modal.classList.remove('body--opened-modal')
         body.classList.remove('body--fixed')
+        event.preventDefault()
     }
     cancel.addEventListener('click', closeModal);
 
     modal.addEventListener('click', event => {
         if (event.target && event.target.classList.contains('modal')) {
             closeModal()
+            event.preventDefault()
         }
     });
     document.addEventListener('keydown', event => {
         if (event.code === 'Escape') {
             closeModal()
+            event.preventDefault()
         }
     });
     modalWindow.addEventListener('click', event => {
         if (event.target && event.target.tagName === 'BUTTON' && input.value.includes('@')) {
             closeModal()
+            event.preventDefault()
         }
     });
 })();
