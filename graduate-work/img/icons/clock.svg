@@ -1,0 +1,15 @@
+<svg width="20.000000" height="20.000000" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip13_1694">
+			<rect id="ant-design:clock-circle-outlined" rx="-0.500000" width="19.000000" height="19.000000" transform="translate(0.500000 0.500000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="ant-design:clock-circle-outlined" rx="-0.500000" width="19.000000" height="19.000000" transform="translate(0.500000 0.500000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip13_1694)">
+		<path id="Vector" d="M10 1.25C5.16 1.25 1.25 5.16 1.25 10C1.25 14.83 5.16 18.75 10 18.75C14.83 18.75 18.75 14.83 18.75 10C18.75 5.16 14.83 1.25 10 1.25ZM10 17.26C5.98 17.26 2.73 14.01 2.73 10C2.73 5.98 5.98 2.73 10 2.73C14.01 2.73 17.26 5.98 17.26 10C17.26 14.01 14.01 17.26 10 17.26Z" fill="#F6A6BF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M13.41 12.47L10.62 10.45L10.62 5.62C10.62 5.53 10.55 5.46 10.47 5.46L9.53 5.46C9.44 5.46 9.37 5.53 9.37 5.62L9.37 11C9.37 11.05 9.39 11.1 9.43 11.13L12.66 13.48C12.74 13.53 12.83 13.52 12.88 13.45L13.44 12.69C13.49 12.61 13.48 12.52 13.41 12.47Z" fill="#F6A6BF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
