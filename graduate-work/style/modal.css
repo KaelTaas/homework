@@ -1,0 +1,131 @@
+.modal-one {
+    position: fixed;
+    inset: 0;
+    background: #00000072;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding: 15px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all .6s;
+    /* opacity: 1;
+    visibility: visible; */
+}
+
+.modal-two {
+    position: fixed;
+    inset: 0;
+    background: #00000072;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding: 15px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all .6s;
+    /* opacity: 1;
+    visibility: visible; */
+}
+.modal-three {
+    position: fixed;
+    inset: 0;
+    background: #00000072;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding: 15px;
+
+    opacity: 0;
+    visibility: hidden;
+    transition: all .6s;
+    /* opacity: 1;
+    visibility: visible; */
+}
+
+.modal--open{
+    opacity: 1;
+    visibility: visible;
+    position: fixed;
+    inset: 0;
+    background: #00000072;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    padding: 15px;
+    
+    
+}
+
+.modal__window {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--general-bg);
+    border-radius: 70px;
+    padding: 0 60px 60px;
+    position: relative;
+    max-width: 428px;
+}
+.modal__window-two {
+
+}
+.modal__window img{
+    padding-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.modal__text {
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.modal__cancel {
+    position: absolute;
+    top: 41px;
+    right: 41px;
+    transform: scale(2);
+}
+
+.modal__cancel path {
+    width: 10px;
+    height: 10px;
+    transition: var(--transition);
+}
+
+.modal__cancel:hover path {
+    stroke: var(--accent-color);
+}
+.modal__cancel-three {
+    display: flex;
+    position: absolute;
+    top: 41px;
+    right: 41px;
+    transform: scale(2);
+}
+
+.modal__cancel-three path {
+    width: 10px;
+    height: 10px;
+    transition: var(--transition);
+}
+
+.modal__cancel-three:hover path {
+    stroke: var(--accent-color);
+}
+
+.modal-three__buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}

@@ -1,0 +1,33 @@
+.footer {
+    margin-top: 34px;
+    margin-bottom: 30px;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.footer__list {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(5, auto);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.footer__item {}
+
+.footer__link {
+    transition: var(--transition);
+    padding: 5px 0;
+}
+
+.footer__link:hover {
+    color: var(--accent-color);
+}
+.footer__link:active {
+    color: var(--accent-color);
+}
